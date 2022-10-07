@@ -1,0 +1,18 @@
+.viking {
+    text-decoration: underline;
+    color: green;
+}
+
+.product-card__h3 {
+    color: red;
+}
+
+.product-card__h3 {
+    display: inline-block;
+}
+
+.product-card__h3:hover {
+    text-decoration: line-through;
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
