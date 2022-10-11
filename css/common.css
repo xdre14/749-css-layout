@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 * {
   margin: 0;
@@ -7,9 +7,12 @@
 }
 
 :root {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: 'DotGothic16', sans-serif;
   --text-color: #222;
+  --border-color: #222;
   --alternate-text-color: #898989;
+  --bg-color: #7acbd1;
+  color: var(--text-color);
 }
 
 img {
@@ -21,3 +24,7 @@ h1 {
     color: var(--text-color);
 }
 
+.container {
+  max-width: 980px;
+  margin: auto;
+}

@@ -1,18 +1,35 @@
-.viking {
-    text-decoration: underline;
-    color: green;
+.product-card {
+    border: 1px solid var(--border-color);
+    padding: 5px;
 }
 
-.product-card__h3 {
-    color: red;
+.product-card__image {
+    width: 95%;
+    margin: auto;
 }
 
-.product-card__h3 {
-    display: inline-block;
+@media (min-width: 560px) {
+
+    .main-products__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+
 }
 
-.product-card__h3:hover {
-    text-decoration: line-through;
-    transform: rotate(180deg);
-    transition: all 0.5s;
+@media (min-width: 660px) { 
+
+    .main-products__list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 960px) { 
+
+    .main-products__list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
 }
