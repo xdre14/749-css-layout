@@ -26,7 +26,7 @@
 }
 
 @media (min-width: 500px) {
-  .header-nav > .container {
+  .header-nav {
     display: flex;
   }
   .header-nav__menu {
@@ -38,7 +38,7 @@
 }
 
 .header-banner {
-    background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(../img/baby-yoda.svg);;
+    background: linear-gradient( rgba(0,0,0,0.1),rgba(0,0,0,0.1) ), url(../img/baby-yoda.svg);;
     background-size: cover;
     background-position: center;
     min-height: 400px;
@@ -46,4 +46,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.header-banner__h1 {
+    color: var(--bg-color);
+    font-size: 4rem;
+}
+
+@media (min-width: 600px) {
+    .header-banner__h1 {
+        font-size: 5rem;
+    }    
 }
