@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 * {
     margin: 0;
@@ -7,8 +7,11 @@
 }
 
 :root {
-    font-family: 'Roboto', sans-serif;
-    --text-color:  rgba(0, 251, 255, 0.441);
+    font-family: 'DotGothic16', sans-serif;
+    --text-color:  #222;
+    --bg-color: #96c9d0;
+    --border-color: #96c9d0;
+    scroll-behavior: smooth;
 }
 
 img {
@@ -16,9 +19,7 @@ img {
     width: 100%;
 }
 
-p::first-letter {
-    color: var(--text-color);
-}
-h2 {
-    transform: rotate(180deg);
+.container {
+    max-width: 980px;
+    margin: auto;
 }
